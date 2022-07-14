@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css';
 import CV from './CV';
 import HeaderScroll from './HeaderScroll'
-import img from '../../assets/images/Predator.jpg'
+import img from '../../assets/images/prof.jpg'
 
 
 const Header = () => {
@@ -15,7 +15,7 @@ const Header = () => {
         <CV/>
         <HeaderScroll/>
         <div className="me">
-          <img src={img} alt='Me'/>
+          {/* <img src={img} alt='Me'/> */}
         </div>
         <a href= "#Contact" className='scroll_down'>Scroll Down</a>
       </div>
