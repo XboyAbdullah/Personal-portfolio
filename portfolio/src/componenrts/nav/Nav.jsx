@@ -1,15 +1,17 @@
 import React from 'react'
 import "./Nav.css";
 import {AiOutlineHome, AiOutlineUser, AiOutlineBook, AiOutlineCustomerService, AiOutlineMessage} from 'react-icons/ai'
+import { useState } from 'react';
 
 const Nav = () => {
+  const [Active, setActive]= useState('#');
   return (
     <nav>
-      <a href='#'><AiOutlineHome/></a>
-      <a href='#about'><AiOutlineUser/></a>
-      <a href='#experience'><AiOutlineBook/></a>
-      <a href='#services'><AiOutlineCustomerService/></a>
-      <a href='#message'><AiOutlineMessage/></a>
+      <a onClick={()=> setActive('#')} className = {Active === '#' ? 'active' : ''} href='#'><AiOutlineHome/></a>
+      <a onClick={()=> setActive('#about')} className = {Active === '#about' ? 'active' : ''} href='#about'><AiOutlineUser/></a>
+      <a onClick={()=> setActive('#experience')} className = {Active === '#experience' ? 'active' : ''} href='#experience'><AiOutlineBook/></a>
+      <a onClick={()=> setActive('#services')} className = {Active === '#services' ? 'active' : ''} href='#services'><AiOutlineCustomerService/></a>
+      <a onClick={()=> setActive('#message')} className = {Active === '#message' ? 'active' : ''} href='#message'><AiOutlineMessage/></a>
     </nav>
   )
 }
