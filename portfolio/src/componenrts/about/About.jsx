@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { FaAward, FaUsers, FaFolderOpen } from "react-icons/fa";
-import img from "../../assets/images/Predator.jpg";
+import img from "../../assets/images/me3.jpg";
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me_img">
-            <img src={img} alt="Me" />
+            {/* <img src={img} alt="Me" /> */}
           </div>
         </div>
         <div className="about_content">
@@ -19,12 +19,12 @@ const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>3+ years</small>
+              <small>1 month<br/>Nexusberry</small>
             </article>
             <article className="about_card">
               <FaUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>200 clients</small>
+              <h5>Degree</h5>
+              <small>BS CS <br/>Comsats University Lahore</small>
             </article>
             <article className="about_card">
               <FaFolderOpen className="about_icon" />
