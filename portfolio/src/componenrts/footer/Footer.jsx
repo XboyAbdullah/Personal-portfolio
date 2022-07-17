@@ -2,13 +2,15 @@ import React from 'react'
 import './Footer.css';
 import {BsFacebook, BsInstagram, BsTwitter} from 'react-icons/bs'
 import {BsLinkedin, BsGithub} from 'react-icons/bs'
-
+import img from '../../assets/images/logo2.6.png'
 
 
 const Footer = () => {
   return (
-    <footer>
-      <a href='' className='footer_logo'>Abdullah</a>
+    <footer id = "footer">
+      <div className="logo">
+            <img src={img} alt="Me" />
+          </div>
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
         <li><a href='#about'>About</a></li>

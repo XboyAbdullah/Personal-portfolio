@@ -126,12 +126,17 @@ const Experience = () => {
           </article>
           <article className='experience_details'>
           <BsFillPatchCheckFill className='experience_details-icon'/>
-            <h4>Visual Studio Code</h4>
+            <h4>VS Code</h4>
             {/* <small className='text-light'>Experienced</small> */}
           </article>
           <article className='experience_details'>
           <BsFillPatchCheckFill className='experience_details-icon'/>
             <h4>Github</h4>
+            {/* <small className='text-light'>Experienced</small> */}
+          </article>
+          <article className='experience_details'>
+          <BsFillPatchCheckFill className='experience_details-icon'/>
+            <h4>Adobe Illustrator</h4>
             {/* <small className='text-light'>Experienced</small> */}
           </article>
         </div>

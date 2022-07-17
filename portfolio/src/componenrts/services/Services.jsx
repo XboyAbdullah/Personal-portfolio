@@ -1,12 +1,12 @@
 import React from 'react'
 import "./Services.css";
-import {BsCheck} from 'react-icons/bs'
+import {BsCheck} from 'react-icons/bs';
 
 
 const Services = () => {
   return (
     <section id = "services"> 
-    <h5>What I offer</h5>
+    <h5>Here are</h5>
     <h2>My Projects</h2>
     <div className='container service_container'>
       <article className='service'>
@@ -16,27 +16,15 @@ const Services = () => {
         <ul className='service_list'>
           <li>
             <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+            <p>UI/UX design of my FYP using Figma</p>
           </li>
           <li>
             <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+            <p>Poster to aware people about managing e-waste Using Illustrator</p>
           </li>
           <li>
             <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-          </li>
-          <li>
-            <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-          </li>
-          <li>
-            <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-          </li>
-          <li>
-            <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+            <p>Designed a logo for a company called LahoreSign</p>
           </li>
         </ul>
       </article>
@@ -48,27 +36,15 @@ const Services = () => {
         <ul className='service_list'>
           <li>
             <BsCheck className='service_list-icon'/>
-            <p>UI/UX design of my FYP</p>
+            <p>E-commerce store Using MERN stack as my semester project</p>
           </li>
           <li>
             <BsCheck className='service_list-icon'/>
-            <p>Poster Using Illustrator</p>
+            <p>E-commerce store Using React Js and Strapi</p>
           </li>
           <li>
             <BsCheck className='service_list-icon'/>
-            <p>Designed a logo</p>
-          </li>
-          <li>
-            <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-          </li>
-          <li>
-            <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-          </li>
-          <li>
-            <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+            <p>InternsIn Portal for jobs and internships Using ReactJs and Firebase</p>
           </li>
         </ul>
       </article>
@@ -80,27 +56,15 @@ const Services = () => {
         <ul className='service_list'>
           <li>
             <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+            <p>Student management System in Java, Swing and SqLite</p>
           </li>
           <li>
             <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+            <p>Intruder detection System Using Python and OpenCV</p>
           </li>
           <li>
             <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-          </li>
-          <li>
-            <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-          </li>
-          <li>
-            <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-          </li>
-          <li>
-            <BsCheck className='service_list-icon'/>
-            <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+            <p>ChatX, a messaging mobile app using React Native and Firebase</p>
           </li>
         </ul>
       </article>

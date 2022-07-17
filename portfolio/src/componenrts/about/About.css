@@ -12,12 +12,10 @@
     place-items: center;
 }
  .about_me_img{
-    border-radius: 2rem;
     overflow: hidden;
+    border-radius: 2rem;
     transform: rotate(10deg);
     transition: var(--transition);
-    /* height: 35rem;
-    width: 33rem; */
  }
 
  .about_me_img:hover {

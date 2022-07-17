@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
-import { FaAward, FaUsers, FaFolderOpen } from "react-icons/fa";
+import { FaAward, FaFolderOpen } from "react-icons/fa";
+import {GiGraduateCap} from "react-icons/gi"
 import img from "../../assets/images/me3.jpg";
 
 const About = () => {
@@ -11,7 +12,7 @@ const About = () => {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me_img">
-            {/* <img src={img} alt="Me" /> */}
+            <img src={img} alt="Me" />
           </div>
         </div>
         <div className="about_content">
@@ -22,14 +23,14 @@ const About = () => {
               <small>1 month<br/>Nexusberry</small>
             </article>
             <article className="about_card">
-              <FaUsers className="about_icon" />
+              <GiGraduateCap className="about_icon" />
               <h5>Degree</h5>
               <small>BS CS <br/>Comsats University Lahore</small>
             </article>
             <article className="about_card">
               <FaFolderOpen className="about_icon" />
               <h5>Projects</h5>
-              <small>7 projects</small>
+              <small>6 projects</small>
             </article>
            
           </div>

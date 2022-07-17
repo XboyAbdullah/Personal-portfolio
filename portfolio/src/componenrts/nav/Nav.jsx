@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Nav.css";
 import {AiOutlineHome, AiOutlineUser, AiOutlineBook, AiOutlineCustomerService, AiOutlineMessage} from 'react-icons/ai'
+import {GrProjects} from 'react-icons/gr'
 import { useState } from 'react';
 
 const Nav = () => {
