@@ -13,7 +13,7 @@ const Header = () => {
       <div className="container header_continer">
         <div className='heading_handler'>
       <h5>Hello I am</h5>
-      <h1>Abdullah</h1>
+      <h1>Abdullah Shahzad</h1>
         <h5 className='text-light'>React Developer</h5>
         </div>
         <CV/>

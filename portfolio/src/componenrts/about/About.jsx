@@ -34,19 +34,15 @@ const About = () => {
             </article>
            
           </div>
-          <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College in Virginia, looked up one of
-              the more obscure Latin words, consectetur, from a Lorem Ipsum
-              passage, and going through the cites of the word in classical
-              literature, discovered the undoubtable source. Lorem Ipsum comes
-              from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et
-              Malorum" (The Extremes of Good and Evil) by Cicero, written in 45
-              BC. This book is a treatise on the theory of ethics, very popular
-              during the Renaissance.The first line of Lorem Ipsum, "Lorem ipsum
-              dolor sit amet..", comes from a line in section 1.10.32.
+            <p>
+              My Name is Muhammad Abdullah Shahzad. i'm a BSCS graduate from Comsats University Lahore Campus. 
+              I specialize in Web development and am always eager to learn new techniques and technologies. 
+              I'm also passionate about graphic designing, I love to think of new ideas and designs to implement. 
+              I also design posters and logos. I have worked on a number of projects during my University
+              time that include web projects, java, python and graphic designing projects. 
+              After my graduation now I want to work with a professional organization to enhance my skills 
+              to a professional level and gain as much experience as I can. I'm a hardworker with problem
+              solving and good communication skills. To reach out to me click on the button below.
             </p>
             <a href="#contact" className="btn btn-primary">
               Lets Talk
