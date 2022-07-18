@@ -1,17 +1,23 @@
 header{
     /* height: 100vh; */
     padding: 7rem;
-    /* background-image: url(../../assets/images/bg5.png); */
+
     background: linear-gradient(var(--color-bg-variant), transparent);
     overflow: hidden;
 }
 .header_continer{
     text-align: center;
+    align-items: center;
     height: 100%;
     position: relative;
 }
 
-
+.heading_handler{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 /* =================== CV ================== */
 .CV{
@@ -86,6 +92,8 @@ header{
     header{
         height: 60vh;
     }
+    
+
     .header_social, .scroll_down{
         display: none;
     }

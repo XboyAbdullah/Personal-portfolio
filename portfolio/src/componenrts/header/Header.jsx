@@ -8,10 +8,14 @@ import HeaderScroll from './HeaderScroll'
 const Header = () => {
   return (
     <header>
-      <div className=" header_continer">
-        <h5>Hello I am</h5>
-        <h1>Abdullah Shahzad</h1>
+      
+      
+      <div className="container header_continer">
+        <div className='heading_handler'>
+      <h5>Hello I am</h5>
+      <h1>Abdullah</h1>
         <h5 className='text-light'>React Developer</h5>
+        </div>
         <CV/>
         <HeaderScroll/>
         {/* <div className="me">
@@ -19,6 +23,7 @@ const Header = () => {
         </div> */}
         <a href= "#contact" className='scroll_down'>Scroll Down</a>
       </div>
+    
     </header>
   )
 }

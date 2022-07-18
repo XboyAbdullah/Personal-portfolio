@@ -7,7 +7,7 @@ const CV = () => {
   return (
     <div className='CV'>
         <a href = {cv} download className='btn'>Download CV</a>
-        {/* <a href = "#Contact" className='btn btn-primary'>Lets Talk</a> */}
+        <a href = "#contact" className='btn btn-primary'>Lets Talk</a>
     </div>
   )
 }
