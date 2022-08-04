@@ -19,11 +19,11 @@ const Footer = () => {
         <li><a href='#contact'>Contact</a></li>
       </ul>
       <div className="footer_socials">
-        <a href='http://facebook.com' target= "_blank"><BsFacebook/></a>
-        <a href='http://Instagram.com' target= "_blank"><BsInstagram/></a>
+        <a href='https://www.facebook.com/profile.php?id=100010236002250' target= "_blank"><BsFacebook/></a>
+        <a href='https://www.instagram.com/abdullah_shahzad_0_0/' target= "_blank"><BsInstagram/></a>
         <a href='https://twitter.com/XboyAbdullah' target= "_blank"><BsTwitter/></a>
-        <a href='https://github.com/XboyAbdullah' target= "_blank"><BsLinkedin/></a>
-        <a href='https://www.linkedin.com/in/abdullah-shahzad-0b9796213/' target= "_blank"><BsGithub/></a>
+        <a  href='https://www.linkedin.com/in/abdullah-shahzad-0b9796213/' target= "_blank"><BsLinkedin/></a>
+        <a href='https://github.com/XboyAbdullah' target= "_blank"><BsGithub/></a>
       </div>
       <div className="footer_copyright">
         <small>&copy; Abdullah Shahzad. All rights reserved</small>
