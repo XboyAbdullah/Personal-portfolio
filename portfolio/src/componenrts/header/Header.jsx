@@ -14,7 +14,7 @@ const Header = () => {
         <div className='heading_handler'>
       <h5>Hello I am</h5>
       <h1>Abdullah Shahzad</h1>
-        <h5 className='text-light'>React Developer</h5>
+        <h5 className='text-light'>Software Developer</h5>
         </div>
         <CV/>
         <HeaderScroll/>
