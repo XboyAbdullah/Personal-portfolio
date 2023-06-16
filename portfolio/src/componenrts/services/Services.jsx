@@ -40,12 +40,25 @@ const Services = () => {
           </li>
           <li>
             <BsCheck className='service_list-icon'/>
-            <p>E-commerce store Using React Js and Strapi</p>
+            <p>Sliding puzzle game in javascript, html and css using localstorage</p>
+          </li>
+          <li>
+            <BsCheck className='service_list-icon'/>
+            <p>Calendar Application to schedule daily tasks in MERN stack with complete user auth.</p>
+          </li>
+          <li>
+            <BsCheck className='service_list-icon'/>
+            <p>Recipes application in Mern stack using Redux Saga with complete user auth.</p>
           </li>
           <li>
             <BsCheck className='service_list-icon'/>
             <p>InternsIn Portal for jobs and internships Using ReactJs and Firebase</p>
           </li>
+          <li>
+            <BsCheck className='service_list-icon'/>
+            <p>Inventory Management System using React JS, Redux Saga, Nest JS, Type ORM, PostgreSql</p>
+          </li>
+          
         </ul>
       </article>
 
